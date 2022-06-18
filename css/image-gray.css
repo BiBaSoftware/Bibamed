@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .ref {
+    filter: grayscale(0%);
+  }
+}
+@media (min-width: 768px) {
+  .ref {
+    filter: grayscale(100%);
+    transition: all 0.35s ease;
+  }
+  .ref:hover {
+    filter: grayscale(0%);
+  }
+}
